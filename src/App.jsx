@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import SetupModal from './components/SetupModal'
 import TimerGrid from './components/TimerGrid'
 import Toolbar from './components/Toolbar'
@@ -42,12 +42,12 @@ function App() {
   }
 
   const handleDeleteTimer = (id) => {
-    setTimers(timers.filter(t => t.id !== id))
+    setTimers(prev => prev.filter(t => t.id !== id))
   }
 
-  const updateTimer = (id, updates) => {
-    setTimers(timers.map(t => t.id === id ? { ...t, ...updates } : t))
-  }
+  const updateTimer = useCallback((id, updates) => {
+    setTimers(prev => prev.map(t => t.id === id ? { ...t, ...updates } : t))
+  }, [])
 
   if (!isSetup) {
     return <SetupModal onSetup={handleSetup} />
