@@ -1,0 +1,208 @@
+================================================================================
+                         MULTI-TIMER APPLICATION
+                            USER MANUAL
+================================================================================
+
+TABLE OF CONTENTS
+-----------------
+1. Getting Started
+2. Initial Setup
+3. Timer Controls
+4. Managing Timers
+5. Toolbar Functions
+6. Visual Indicators
+7. Tips & Best Practices
+
+
+================================================================================
+1. GETTING STARTED
+================================================================================
+
+The Multi-Timer Application is designed for managing multiple countdown timers
+simultaneously. It features a large, easy-to-read flip clock display that is
+perfect for viewing from a distance or on a projector.
+
+Ideal for:
+  • Restaurant table management
+  • Event timing
+  • Multiple task tracking
+  • Any scenario requiring simultaneous countdown timers
+
+
+================================================================================
+2. INITIAL SETUP
+================================================================================
+
+When you first launch the application, you'll see the Setup Screen:
+
+STEP 1: Select Number of Timers
+  • Choose between 1 and 10 timers
+  • Use the slider or input field to select the quantity
+
+STEP 2: Set Initial Time
+  • Enter hours, minutes, and seconds
+  • This will be the default time for all timers
+
+STEP 3: Table Labels
+  • Toggle the checkbox to show/hide "Table X" labels on each timer
+  • Labels help identify which timer belongs to which table
+
+STEP 4: Start
+  • Click "Start" to create your timers and begin
+
+
+================================================================================
+3. TIMER CONTROLS
+================================================================================
+
+Each timer can be controlled with simple mouse interactions:
+
+SINGLE CLICK - Start/Pause Timer
+  • Click once on any timer to start the countdown
+  • Click again to pause it
+  • All timers run independently - you can have multiple timers running
+    at the same time
+
+DOUBLE CLICK - Restart Timer
+  • Double-click any timer to reset it to its original set time
+  • The timer will stop and return to the starting value
+
+RIGHT CLICK - Options Menu
+  • Right-click on any timer to open the context menu
+  • Options available:
+    - Set Time: Change the timer's duration
+    - Delete Timer: Remove this timer from the grid
+
+
+================================================================================
+4. MANAGING TIMERS
+================================================================================
+
+SETTING CUSTOM TIME:
+  1. Right-click on a timer
+  2. Select "Set Time" from the menu
+  3. Enter new hours, minutes, and seconds
+  4. Click "Set Time" to confirm
+  5. The timer will reset to the new duration
+
+DELETING A TIMER:
+  1. Right-click on the timer you want to remove
+  2. Select "Delete Timer" from the menu
+  3. The timer will be removed and the grid will adjust automatically
+
+ADDING A NEW TIMER:
+  1. Click the "+" button in the bottom-right corner
+  2. Enter the time for the new timer
+  3. Click "Set Time" to add it
+  4. Maximum of 10 timers allowed
+
+
+================================================================================
+5. TOOLBAR FUNCTIONS
+================================================================================
+
+The application has two main toolbar buttons:
+
+TOP-LEFT BUTTON - Toggle Table Labels
+  • Click to show or hide the "Table X" labels on all timers
+  • Useful when you don't need to identify specific tables
+
+BOTTOM-RIGHT "+" BUTTON - Add Timer
+  • Click to add a new timer to the grid
+  • Opens a dialog to set the time for the new timer
+  • Disabled when you have 10 timers (maximum limit)
+
+EXIT BUTTON (if available)
+  • Returns you to the setup screen
+  • Allows you to start fresh with a new configuration
+
+
+================================================================================
+6. VISUAL INDICATORS
+================================================================================
+
+TIMER COLORS:
+  • Black background: Timer is stopped or running normally
+  • Red blinking: Timer has expired (reached 00:00:00)
+
+FLIP ANIMATION:
+  • Numbers flip with a realistic animation when counting down
+  • Provides clear visual feedback of time progression
+
+GRID LAYOUT:
+  • The grid automatically adjusts based on the number of timers
+  • Optimized layouts for 1, 2, 3, 4, 6, 8, or 10 timers
+  • All timers are sized for maximum visibility
+
+
+================================================================================
+7. TIPS & BEST PRACTICES
+================================================================================
+
+FOR RESTAURANT USE:
+  • Use table labels to match timers to physical tables
+  • Set different times for different courses or cooking durations
+  • Double-click to quickly restart a timer for the next customer
+
+FOR PROJECTOR/DISTANCE VIEWING:
+  • The UI is designed with large fonts and high contrast
+  • All controls work with simple clicks - no complex gestures needed
+  • Red blinking alerts are visible even from far away
+
+FOR MULTIPLE TASKS:
+  • Each timer runs independently - start and stop as needed
+  • Use the right-click menu to adjust times on the fly
+  • Add or remove timers dynamically without restarting
+
+GENERAL TIPS:
+  • All timers can run simultaneously without interfering with each other
+  • Click outside context menus to close them
+  • The application remembers your timer states until you exit
+  • For best performance, use a modern web browser (Chrome, Firefox, Edge)
+
+
+================================================================================
+KEYBOARD SHORTCUTS
+================================================================================
+
+Currently, the application is optimized for mouse/touch interaction.
+All functions are accessible via clicking.
+
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+TIMER NOT STARTING:
+  • Make sure the timer has time remaining (not at 00:00:00)
+  • If expired (blinking red), click once to reset the expired state
+  • Then click again to start
+
+TIMER NOT VISIBLE:
+  • Check if you've accidentally deleted it
+  • Use the "+" button to add it back
+
+LAYOUT LOOKS WRONG:
+  • Refresh the page
+  • Ensure your browser window is large enough
+  • The grid auto-adjusts based on screen size
+
+TIMERS RUNNING TOGETHER (OLD BUG - NOW FIXED):
+  • This issue has been resolved
+  • All timers now run independently
+  • If you still experience this, try refreshing the application
+
+
+================================================================================
+TECHNICAL SUPPORT
+================================================================================
+
+For issues, questions, or feature requests, please refer to the project
+repository or contact the development team.
+
+Version: 1.0
+Last Updated: March 2026
+
+================================================================================
+                            END OF USER MANUAL
+================================================================================
